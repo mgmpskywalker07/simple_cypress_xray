@@ -1,0 +1,15 @@
+{
+  "retries": 1,
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 40000,
+  "pageLoadTimeout": 60000,
+  "viewportHeight": 720,
+  "viewportWidth": 1280,
+  "screenshotOnRunFailure": false,
+  "video": false,
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "results/my-test-output.xml",
+    "toConsole": true
+  }
+}
